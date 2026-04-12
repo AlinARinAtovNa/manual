@@ -1,0 +1,18 @@
+/* Центрируем название сайта в шапке */
+.md-header .md-header__title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: auto;
+  white-space: nowrap;
+}
+
+/* Адаптация для мобильных */
+@media screen and (max-width: 600px) {
+  .md-header .md-header__title {
+    position: static;
+    transform: none;
+    margin: 0 auto;
+  }
+}
