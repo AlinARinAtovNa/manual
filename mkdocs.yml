@@ -45,6 +45,22 @@ theme:
     - navigation.tracking                                                # Подсветка текущего раздела в боковом меню (показывает, где вы находитесь)
     - content.code.copy                                                  # Кнопка копирования кода
 
+# Расширения Markdown для чекбоксов
+markdown_extensions:
+  - admonition 
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - tables
+  - toc:
+      permalink: true
+
 # Иконки соцсетей в подвале
 extra:
   social:
