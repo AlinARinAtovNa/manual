@@ -8,9 +8,10 @@ docs_dir: docs                                                        # Папк
 nav:                                                                  # В шапке и боковом меню будут три раздела
   - Главная:
       - О проекте: index.md
-      - Чеклист: checklist.md
       - Pull Request: github-pr.md
       - Публикация: publish.md
+      - Частые ошибки: mistakes.md
+      - Чеклист: checklist.md
   - Команды:
       - Основные команды Git: commands.md
 
