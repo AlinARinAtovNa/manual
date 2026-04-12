@@ -55,4 +55,4 @@ extra:
 copyright: © 2026 Docs as Code
 
 extra_css:
-  - stylesheets/extra.css                                                # Дополнительный документ, где можно менять цвета, шрифты, отступы и т.д.
+  - docs/stylesheets/extra.css                                                # Дополнительный документ, где можно менять цвета, шрифты, отступы и т.д.
