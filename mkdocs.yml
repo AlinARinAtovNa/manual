@@ -1,0 +1,59 @@
+# Основная информация
+site_name: Docs as Code                                               # Название сайта (показывается в шапке и вкладке браузера)
+site_description: Документация проекта по методологии Docs as Code    # Краткое описание проекта 
+site_author: Алина                                                    # Автор документации 
+docs_dir: docs                                                        # Папка с файлами 
+
+# Ссылка на репозиторий
+repo_url: https://github.com/AlinARinAtovNa/manual                    # Адрес репозитория
+repo_name: GitHub                                                     # Текст подсказки при наведении
+
+# Навигация по сайту
+nav:                                                                  # В шапке и боковом меню будут три раздела
+  - Главная: index.md
+  - GitHub PR: github-pr.md
+  - Команды: commands.md
+
+# Тема оформления
+theme:
+  name: material                                                       # Тема
+  language: ru                                                         # Интерфейс на русском языке
+  
+  # Цветовая схема с переключателем
+  palette:
+    # Светлая тема (по умолчанию)
+    - scheme: default                                                   # Светлый фон
+      primary: indigo                                                   # Цвет шапки, бокового меню (сине-фиолетовый)
+      accent: deep purple                                               # Цвет ссылок и активных элементов (тёмно-фиолетовый)
+      toggle:
+        icon: material/brightness-7                                     # Иконка солнца
+        name: Переключить на темную тему                                # Текст подсказки
+    
+    # Темная тема (активируется переключателем)
+    - scheme: slate                                                     # Темный фон
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4                                     # Иконка Луны
+        name: Переключить на светлую тему
+  
+  # Дополнительные фишки
+  features:
+    - navigation.tabs                                                    # Вкладки в шапке (каждый раздел nav = отдельная вкладка)
+    - navigation.sections                                                # Секции в боковом меню
+    - navigation.top                                                     # Кнопка "Наверх" (появляется при скролле вниз)
+    - navigation.tracking                                                # Подсветка текущего раздела в боковом меню (показывает, где вы находитесь)
+    - content.code.copy                                                  # Кнопка копирования кода
+
+# Иконки соцсетей в подвале
+extra:
+  social:
+    - icon: fontawesome/brands/github                                    # Иконка GitHub
+      link: https://github.com/AlinARinAtovNa                            # Ссылка на GitHub
+      name: GitHub                                                       # Текст подсказки при наведении
+    - icon: fontawesome/brands/telegram                                  # Иконка Telegram
+      link: https://t.me/H_AlinaR                                        # Ссылка на ваш Telegram
+      name: Telegram                                                     # Текст подсказки
+
+# Копирайт в подвале
+copyright: © 2026 Docs as Code
