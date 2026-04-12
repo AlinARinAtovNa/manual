@@ -6,9 +6,13 @@ docs_dir: docs                                                        # Папк
 
 # Навигация по сайту
 nav:                                                                  # В шапке и боковом меню будут три раздела
-  - Главная: index.md
-  - GitHub PR: github-pr.md
-  - Команды: commands.md
+  - Главная:
+      - О проекте: index.md
+      - Чеклист: checklist.md
+  - GitHub:
+      - Pull Request: github-pr.md
+  - Команды:
+      - Git: commands.md
 
 # Тема оформления
 theme:
@@ -53,6 +57,3 @@ extra:
 
 # Копирайт в подвале
 copyright: © 2026 Docs as Code
-
-extra_css:
-  - docs/stylesheets/extra.css                                                # Дополнительный документ, где можно менять цвета, шрифты, отступы и т.д.
