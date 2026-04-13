@@ -32,7 +32,7 @@ theme:
   palette:
     # Светлая тема (по умолчанию)
     - scheme: default                                                   # Светлый фон
-      primary: indigo                                                   # Цвет шапки, бокового меню (сине-фиолетовый)
+      primary: black                                                    # Цвет шапки, бокового меню (черный)
       accent: deep purple                                               # Цвет ссылок и активных элементов (темно-фиолетовый)
       toggle:
         icon: material/brightness-7                                     # Иконка солнца
@@ -40,7 +40,7 @@ theme:
     
     # Темная тема (активируется переключателем)
     - scheme: slate                                                     # Темный фон
-      primary: indigo
+      primary: black
       accent: deep purple
       toggle:
         icon: material/brightness-4                                     # Иконка Луны

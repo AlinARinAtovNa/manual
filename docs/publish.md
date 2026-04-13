@@ -6,7 +6,7 @@
 - Добавьте все изменения: `git add .`.
 - Запишите изменения: `git commit -m "Документация готова к публикации"`.
 - Отправьте изменения на GitHub: `git push`.
-- Выполните команду: `mkdocs gh-deploy --clean`.
+- Выполните команду: `python -m mkdocs gh-deploy --clean`.
 
 ### Настройка GitHub Pages
 
