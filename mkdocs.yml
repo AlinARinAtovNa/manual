@@ -3,6 +3,9 @@ site_name: Docs as Code                                               # Назв
 site_description: Документация проекта по методологии Docs as Code    # Краткое описание проекта 
 site_author: Алина                                                    # Автор документации 
 docs_dir: docs                                                        # Папка с файлами 
+site_url: https://AlinARinAtovNa.github.io/manual/
+repo_url: https://github.com/AlinARinAtovNa/manual
+repo_name: GitHub
 
 # Навигация по сайту
 nav:                                                                  # В шапке и боковом меню будут три раздела
