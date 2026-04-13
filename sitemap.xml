@@ -1,3 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://AlinARinAtovNa.github.io/manual/</loc>
+         <lastmod>2026-04-13</lastmod>
+    </url>
+    <url>
+         <loc>https://AlinARinAtovNa.github.io/manual/checklist/</loc>
+         <lastmod>2026-04-13</lastmod>
+    </url>
+    <url>
+         <loc>https://AlinARinAtovNa.github.io/manual/commands/</loc>
+         <lastmod>2026-04-13</lastmod>
+    </url>
+    <url>
+         <loc>https://AlinARinAtovNa.github.io/manual/github-pr/</loc>
+         <lastmod>2026-04-13</lastmod>
+    </url>
+    <url>
+         <loc>https://AlinARinAtovNa.github.io/manual/mistakes/</loc>
+         <lastmod>2026-04-13</lastmod>
+    </url>
+    <url>
+         <loc>https://AlinARinAtovNa.github.io/manual/publish/</loc>
+         <lastmod>2026-04-13</lastmod>
+    </url>
 </urlset>
