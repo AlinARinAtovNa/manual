@@ -1,0 +1,19 @@
+/* Шапка в светлой теме */
+[data-md-color-scheme="default"] .md-header {
+    background-color: #000000de !important;
+}
+
+/* Шапка в темной теме */
+[data-md-color-scheme="slate"] .md-header {
+    background-color: #000000de !important;
+}
+
+/* Подвал в светлой теме */
+[data-md-color-scheme="default"] .md-footer-meta {
+    background-color: #000000de !important;
+}
+
+/* Подвал в темной теме */
+[data-md-color-scheme="slate"] .md-footer-meta {
+    background-color: #000000de !important;
+}
